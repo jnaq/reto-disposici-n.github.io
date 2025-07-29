@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <title>Diseño de Dos Columnas</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    .container {
-      display: flex;
-      min-height: 100vh; /* Altura mínima de pantalla completa */
-    }
-
-    .columna-izquierda {
-      width: 30%;
-      background-color: #f0f0f0;
-      padding: 20px;
-    }
-
-    .columna-derecha {
-      width: 70%;
-      background-color: #ffffff;
-      padding: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Menú de Productos</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <div class="container">
-    <div class="columna-izquierda">
-      <h2>Columna Izquierda</h2>
-      <p>Este es el contenido de la columna izquierda que ocupa el 30% del ancho total.</p>
-    </div>
-    <div class="columna-derecha">
-      <h2>Columna Derecha</h2>
-      <p>Este es el contenido de la columna derecha que ocupa el 70% restante del ancho total.</p>
-    </div>
-  </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor-tarjetas">
+        <div class="tarjeta">
+            <img src="refresco.jpeg" alt="Refrescos">
+            <h3>Refrezcos</h3>
+            <p>Variedad de sabores a elegir.</p>
+            <a href="#">Ver más</a>
+        </div>
+          </div>
+         <div class="tarjeta">
+            <img src="pabello.jpeg" alt="Pizza">
+            <h3>Almuerzos</h3>
+            <p>Menu amplio en almuerzos ejecutivos.</p>
+            <a href="#">Ver más</a>
+        </div>
+        <div class="tarjeta">
+            <img src="perro.jpg" alt="Hot dog">
+            <h3>Perros caliente</h3>
+            <p>Variedad de combinaciones disponibles.</p>
+            <a href="#">Ver más</a>
+        </div>
+        <div class="tarjeta">
+            <img src="hamb.jpg" alt="Hamburguesa">
+            <h3>Hemburguesas</h3>
+            <p>Variedad de combinaciones disponibles.</p>
+            <a href="#">Ver más</a>
+        </div>
+      
+         <div class="tarjeta">
+            <img src="cachap.jpg" alt="Pizza">
+            <h3>cachapa</h3>
+            <p>Variedad de combinaciones disponibles.</p>
+            <a href="#">Ver más</a>
+        </div>      
+          <div class="tarjeta">
+            <img src="pizz.jpeg" alt="Pizza">
+            <h3>Pizzas</h3>
+            <p>Variedad de combinaciones disponibles.</p>
+            <a href="#">Ver más</a>
+        </div>
+    </main>
+    <footer> &copy; Jehysson Agelvis 2025 reto clase disposición    </footer>
 </body>
 </html>
